@@ -7,7 +7,10 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-sans);
+  @apply bg-amber-50 dark:text-black;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
